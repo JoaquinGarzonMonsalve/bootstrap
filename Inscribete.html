@@ -9,17 +9,17 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
-<body class="cuerpo2">
+<body class="cuerpo2 bg-black p-5">
     <!-- TITULO EN LA POGINA  -->
 
-    <div class="cabeza2  d-flex justify-content-center d-flex align-items-center">
+    <div class="cabeza2 ">
 
-         <div class="titulo2 bg-red">
+         <div class="titulo2 bg-red d-flex justify-content-center d-flex align-items-center ">
             <h3>Join</h3><h2> Inscribete</h2><h3>Us</h3> 
         </div>
         <div class="menuHorizontal">
                 <nav>
-                    <ul class="navegador">
+                    <ul class="navegador d-flex justify-content-center d-flex align-items-center ">
                         <li><a href="./index.html">Inicio</a></li>
                        <li><a href="./Inscribete.html">Inscribete</a></li>
                        <li><a href="./Galeria.html">Galeria</a></li>
@@ -35,27 +35,64 @@
     
     <!-- tarjetas de informacion sobre inscripcion -->
 
-    <div class="imgInscripcion">
-        <div class="tarjeta1"><img src="./img/inscribet4.jpg" alt="" width="150px " height="150px" class="imag11" ><p>Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Ab di eius doloremque, fugiat earum! 
-            Quidem tenetur beatae 
-            </p></div>
-        <div class="tarjeta2"><img src="./img/inscribet7.jpg" alt="" width="180px " height="180px" class="imag2" ><p>Lorem, ipsum dolor sit amet consectetur 
-            adipisicing elit. e illum! Animi 
-            rerum id, iure quas totam quam ex.</p></div>
-        <div class="tarjeta3"><img src="./img/inscribet8.jpg" alt="" width="180px " height="180px" class="imag3"  ><p>Lorem ipsum dolor sit amet consectetur, 
-            adipisicing el quia dolore quis vitae voluptatibus laborum 
-            placeat inventore sit fuga culpa.</p></div>
-    </div>
+    
+        <div class="row mt-5  d-flex flex-row">
+            <div class="col-med-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/inscribet7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Inscribete</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-med-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/inscribet4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Inscribete</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-med-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/inscribet8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Inscribete</a>
+                    </div>
+                  </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+    
+
+    
 
     <br> <br>
 
         
-<div class="tablaHorarios">
+<div class="tablaHorarios d-flex justify-content-center d-flex align-items-center">
 
-    <h3>HORARIOS</h3>
-    <br>
-    <table class="horarios"
+    <div class="titulotabla">
+        <h3>HORARIOS</h3>
+    </div>
+    
+    <div class="tablaH">
+        <br>
+     <table class="horarios table table-dark table-striped"
         border="2">
         <tr>
             <td>Hora</td> 
@@ -108,22 +145,37 @@
             <td>CERRADO</td>
             
         </tr>
-        </table>
+     </table>
+    </div>
 </div>
 
 </div>
-    <footer class="pie">
+<section>
+
+    <div class="row ">
+        <div class="col-1 bg-red"></div>
+
+        <div class="col-7 bg-black"><footer class="pie">
 
         <small><p>llamanos 12345678</p></small>
         <small><p>correo@correo.com</p></small>
         <small><p>GYM FAJARD</p></small>
-    </footer>
-
-
-
-
+        </div>
     
     
+
+        <div class="col-1 Face bg-black d-flex justify-content-center d-flex align-items-center"><img src="./img/facebook.jpg" alt="" class="img-fluid "></div>
+        <div class="col-1 insta bg-black d-flex justify-content-center d-flex align-items-center"> <img src="./img/ins.jpg" alt=""class="img-fluid"></div>
+        <div class="col-1 Twi bg-black d-flex justify-content-center d-flex align-items-center"> <img src="./img/twi.jpg" alt=""class="img-fluid"></div>
+    
+
+    
+        <div class="col-1  bg-black"></div>
+    
+    </div>
+</section>
+
+<!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
